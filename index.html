@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotable Emotions</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Matemasie&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <i class="fa-regular fa-face-smile logo-icon fa-5x" alt="Smile Icon"></i>
+      </div>
+      <h1>Quotable Emotions</h1>
+    </header>
+
+    <main>
+      <h2>Select Your Current Emotion</h2>
+      <div class="controls">
+        <div class="emotion-radios" id="emotion-radios"></div>
+        <button class="get-quote-btn" id="get-quote-btn">
+          Get Quote
+        </button>
+      </div>
+
+      <div class="modal" id="modal" >
+        <button class="modal-close-btn" id="modal-close-btn">X</button>
+        <div class="modal-inner" id="modal-inner">
+        </div>
+      </div>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
